@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Init Instant VSCode</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/supersized.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="page-container">
+            <h1>初始化你的Instant VSCode</h1>
+            <form action="/Init" method="post">
+                <input type="text" name="id" class="username" placeholder="你的Instant ID(数字或字母)" value="{{$value}}">
+                <input type="password" name="password" class="username" placeholder="你的登录密码(数字或字母)">
+                <input type="text" name="time" class="username" placeholder="使用时长(测试期间默认1天)" readonly>
+                <button type="submit">创建Instant VSCode</button>
+            </form>
+            <br>
+            <h5>到期后我们会暂存您的工作数据7天</h5>
+        </div>
+        <script src="assets/js/jquery-1.8.2.min.js"></script>
+        <script src="assets/js/supersized.3.2.7.min.js"></script>
+        <script src="assets/js/supersized-init.js"></script>
+        <script src="assets/js/scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>正在分配资源...</title>
+
+<link type="text/css" rel="stylesheet" href="assets/css/wstyle.css">
+
+</head>
+
+<body>
+
+<div class="counter">
+	<div class="nums">
+		<span class="in">20</span>
+		<span>19</span>
+		<span>18</span>
+		<span>17</span>
+		<span>16</span>
+		<span>15</span>
+		<span>14</span>
+		<span>13</span>
+		<span>12</span>
+		<span>11</span>
+		<span>10</span>
+		<span>9</span>
+		<span>8</span>
+		<span>7</span>
+		<span>6</span>
+		<span>5</span>
+		<span>4</span>
+		<span>3</span>
+		<span>2</span>
+		<span>1</span>
+		<span>0</span>
+	</div>
+	<h4>正在为你分配资源...</h4>
+</div>
+<div class="final">
+	<h1>资源分配成功</h1>
+	<button id="replay" onclick="go()">立即进入Instant VSCode</button>
+</div>
+
+<script type="text/javascript" src="assets/js/wait.js"></script>
+<script>
+	function go()
+	{
+		window.location.href = "{{$url}}"
+	}
+</script>
+
+</div>
+</body>
+</html>
